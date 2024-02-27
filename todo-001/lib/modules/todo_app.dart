@@ -206,7 +206,7 @@ class _TodoAppState extends State<TodoApp> {
                     });
 
                     // SnackBar 를 띄우기위해 snackBar 객체(변수)선언
-                    SnackBar snackBar = const SnackBar(
+                    const snackBar = SnackBar(
                       content: Text("할일이 등록됨"),
                     );
                     // ScaffoldMessenger 에게 snackBar 를 표시해줘 라고 요청하기
