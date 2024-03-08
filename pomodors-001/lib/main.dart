@@ -138,6 +138,7 @@ class _MainPageState extends State<MainPage> {
         ),
       ),
       child: Scaffold(
+        appBar: AppBar(),
         backgroundColor: Colors.transparent,
         body: PageView(
           controller: _pageController,
